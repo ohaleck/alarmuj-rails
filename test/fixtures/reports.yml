@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: reports
+#
+#  id         :integer          not null, primary key
+#  latitude   :decimal(, )
+#  longitude  :decimal(, )
+#  accuracy   :decimal(, )
+#  flags      :string
+#  time       :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  latitude: 9.99
+  longitude: 9.99
+  accuracy: 9.99
+  flags: MyString
+  time: 1
+
+two:
+  latitude: 9.99
+  longitude: 9.99
+  accuracy: 9.99
+  flags: MyString
+  time: 1
