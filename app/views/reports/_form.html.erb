@@ -36,7 +36,13 @@
     <%= form.number_field :time, id: :report_time %>
   </div>
 
-  <div class="actions">
+    <div class="field">
+      <%= form.label :description %>
+      <%= form.text_area :description, id: :report_description %>
+    </div>
+
+
+    <div class="actions">
     <%= form.submit %>
   </div>
 <% end %>
